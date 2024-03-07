@@ -24,7 +24,7 @@ public class Calculadora {
                     System.out.println("Introduce segundo operador: ");
                     num2 = sc.nextDouble();
                     sc.nextLine();
-                    System.out.println(Suma.suma(num1,num2));
+                    System.out.println(Suma(num1,num2));
                     break;
                 case "2":
                     System.out.println("Introduce primer operador: ");
@@ -32,7 +32,7 @@ public class Calculadora {
                     System.out.println("Introduce segundo operador: ");
                     num2 = sc.nextDouble();
                     sc.nextLine();
-                    System.out.println(Resta.resta(num1,num2));
+                    System.out.println(Resta(num1,num2));
                     break;
                 case "3":
                     System.out.println("Introduce primer operador: ");
@@ -40,7 +40,7 @@ public class Calculadora {
                     System.out.println("Introduce segundo operador: ");
                     num2 = sc.nextDouble();
                     sc.nextLine();
-                    System.out.println(Multiplicacion.multiplicacion(num1,num2));
+                    System.out.println(Multiplicacion(num1,num2));
                     break;
                 case "4":
                     System.out.println("Introduce primer operador: ");
@@ -48,7 +48,7 @@ public class Calculadora {
                     System.out.println("Introduce segundo operador: ");
                     num2 = sc.nextDouble();
                     sc.nextLine();
-                    System.out.println(Division.division(num1,num2));
+                    System.out.println(Division(num1,num2));
                     break;
                 case "0":
                     System.out.println("Terminamos");
@@ -57,5 +57,18 @@ public class Calculadora {
                     System.out.println("Opción no válida");
             }
         }while(!opcion.equals("0"));
+    }
+
+    public static double Suma(double num1,double num2){
+        return Suma.suma(num1,num2);
+    }
+    public static double Resta(double num1,double num2){
+        return Resta.resta(num1,num2);
+    }
+    public static double Multiplicacion(double num1,double num2){
+        return Multiplicacion.multiplicacion(num1,num2);
+    }
+    public static double Division(double num1,double num2){
+        return Division.division(num1,num2);
     }
 }
