@@ -24,7 +24,7 @@ public class Calculadora {
                     System.out.println("Introduce segundo operador: ");
                     num2 = sc.nextDouble();
                     sc.nextLine();
-                    //System.out.println(Suma.suma(num1,num2));
+                    System.out.println(Suma.suma(num1,num2));
                     break;
                 case "2":
                     System.out.println("Introduce primer operador: ");
@@ -32,7 +32,7 @@ public class Calculadora {
                     System.out.println("Introduce segundo operador: ");
                     num2 = sc.nextDouble();
                     sc.nextLine();
-                    //System.out.println(Resta.resta(num1,num2));
+                    System.out.println(Resta.resta(num1,num2));
                     break;
                 case "3":
                     System.out.println("Introduce primer operador: ");
@@ -40,7 +40,7 @@ public class Calculadora {
                     System.out.println("Introduce segundo operador: ");
                     num2 = sc.nextDouble();
                     sc.nextLine();
-                    //System.out.println(Multiplicacion.multiplicacion(num1,num2));
+                    System.out.println(Multiplicacion.multiplicacion(num1,num2));
                     break;
                 case "4":
                     System.out.println("Introduce primer operador: ");
@@ -48,7 +48,7 @@ public class Calculadora {
                     System.out.println("Introduce segundo operador: ");
                     num2 = sc.nextDouble();
                     sc.nextLine();
-                    //System.out.println(Division.division(num1,num2));
+                    System.out.println(Division.division(num1,num2));
                     break;
                 case "0":
                     System.out.println("Terminamos");
