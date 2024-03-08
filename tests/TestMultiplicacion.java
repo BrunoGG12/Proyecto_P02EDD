@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class testMultiplicacion {
+class TestMultiplicacion {
 
     @BeforeEach
     void setUp() {
@@ -19,7 +19,7 @@ class testMultiplicacion {
         double num1 = 10.0;
         double num2 = 10.0;
         double expResult = 100.0;
-        double result = Calculadora.Multiplicacion(num1,num2);
+        double result = Calculadora.multiplicacion(num1,num2);
         assertEquals(expResult,result);
     }
     @Test
@@ -27,7 +27,7 @@ class testMultiplicacion {
         double num1 = 7.0;
         double num2 = 9.0;
         double expResult = 63.0;
-        double result = Calculadora.Multiplicacion(num1,num2);
+        double result = Calculadora.multiplicacion(num1,num2);
         assertEquals(expResult,result);
     }
     @Test
@@ -35,7 +35,7 @@ class testMultiplicacion {
         double num1 = 24.0;
         double num2 = 3.0;
         double expResult = 72.0;
-        double result = Calculadora.Multiplicacion(num1,num2);
+        double result = Calculadora.multiplicacion(num1,num2);
         assertEquals(expResult,result);
     }
 }

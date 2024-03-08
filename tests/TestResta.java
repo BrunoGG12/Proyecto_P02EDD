@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class testResta {
+class TestResta {
 
     @BeforeEach
     void setUp() {
@@ -19,7 +19,7 @@ class testResta {
         double num1 = 15.0;
         double num2 = 10.0;
         double expResult = 5.0;
-        double result = Calculadora.Resta(num1,num2);
+        double result = Calculadora.resta(num1,num2);
         assertEquals(expResult,result);
     }
     @Test
@@ -27,7 +27,7 @@ class testResta {
         double num1 = 100.0;
         double num2 = 13.0;
         double expResult = 87.0;
-        double result = Calculadora.Resta(num1,num2);
+        double result = Calculadora.resta(num1,num2);
         assertEquals(expResult,result);
     }
     @Test
@@ -35,7 +35,7 @@ class testResta {
         double num1 = 56.0;
         double num2 = 6.0;
         double expResult = 50.0;
-        double result = Calculadora.Resta(num1,num2);
+        double result = Calculadora.resta(num1,num2);
         assertEquals(expResult,result);
     }
 

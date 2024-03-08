@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class testDivision {
+class TestDivision {
 
     @BeforeEach
     void setUp() {
@@ -19,7 +19,7 @@ class testDivision {
         double num1 = 100.0;
         double num2 = 0.0;
         double expResult = 0.0;
-        double result = Calculadora.Division(num1,num2);
+        double result = Calculadora.division(num1,num2);
         assertEquals(expResult,result);
     }
     @Test
@@ -27,7 +27,7 @@ class testDivision {
         double num1 = 25.0;
         double num2 = 5.0;
         double expResult = 5.0;
-        double result = Calculadora.Division(num1,num2);
+        double result = Calculadora.division(num1,num2);
         assertEquals(expResult,result);
     }
     @Test
@@ -35,7 +35,7 @@ class testDivision {
         double num1 = 80.0;
         double num2 = 8.0;
         double expResult = 10.0;
-        double result = Calculadora.Division(num1,num2);
+        double result = Calculadora.division(num1,num2);
         assertEquals(expResult,result);
     }
 }
