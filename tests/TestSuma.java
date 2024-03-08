@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class testSuma {
+class TestSuma {
 
     @BeforeEach
     void setUp() {
@@ -19,7 +19,7 @@ class testSuma {
         double num1 = 10.0;
         double num2 = 15.0;
         double expResult = 25.0;
-        double result = Calculadora.Suma(num1,num2);
+        double result = Calculadora.suma(num1,num2);
         assertEquals(expResult,result);
     }
     @Test
@@ -27,7 +27,7 @@ class testSuma {
         double num1 = 100.0;
         double num2 = 70.0;
         double expResult = 170.0;
-        double result = Calculadora.Suma(num1,num2);
+        double result = Calculadora.suma(num1,num2);
         assertEquals(expResult,result);
     }
     @Test
@@ -35,7 +35,7 @@ class testSuma {
         double num1 = 4.0;
         double num2 = 85.0;
         double expResult = 89.0;
-        double result = Calculadora.Suma(num1,num2);
+        double result = Calculadora.suma(num1,num2);
         assertEquals(expResult,result);
     }
 }
