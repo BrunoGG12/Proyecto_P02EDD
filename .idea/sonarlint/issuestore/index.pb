@@ -22,3 +22,9 @@ Q.idea/sonarlint/securityhotspotstore/d/2/d2e0b1ee79f27ed8c58232f7855a23ba0fcc37
 :
 
 P02EDD.iml,1\7\17b0f3ae6eb6d9b83e4587854f309f58ee61a5e5
+=
+src/Suma.java,e\7\e71a729edc68d401dd348856a0e655cf82e4a35c
+>
+src/Resta.java,3\9\390bdb9777277e5bb16e51269c19d7a44921cf08
+G
+src/Multiplicacion.java,f\2\f2627b2d51feab208f16f3315ada977190e1577c
